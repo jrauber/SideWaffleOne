@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>SimpleTemplate.txt</DefaultName>
+    <Name>SimpleTemplate</Name>
+    <Description>Long description here</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>0e0bdeb5-edc6-42d7-991d-6a2cc6774438</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">readme.txt</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>
