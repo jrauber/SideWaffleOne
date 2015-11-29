@@ -4,5 +4,7 @@
   <ProjectTemplates>
     <ProjectTemplate Path="..\SimpleApp\_Definitions\_project.vstemplate.xml" Name="SimpleApp" Description="Simple SideWaffle-VSIX-Project" ProjectType="CSharp" ProjectSubType="" />
   </ProjectTemplates>
-  <Snippets />
+  <Snippets>
+    <Snippet Title="Simple" Description="A description for Simple" Shortcut="Simple" Path="Snippets\CSharp\OwnSnippets\Simple.snippet" />
+  </Snippets>
 </TemplateReport>
