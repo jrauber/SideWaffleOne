@@ -49,12 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ItemTemplates\OwnCategory\SimpleTemplate\Definitions\CSharp.vstemplate" />
-    <None Include="ItemTemplates\OwnCategory\SimpleTemplate\Definitions\Web.csharp.vstemplat-" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
     <Content Include="ItemTemplates\OwnCategory\SimpleTemplate\File\SimpleFile.txt" />
     <Content Include="ItemTemplates\OwnCategory\SimpleTemplate\icon.png" />
-    <None Include="ItemTemplates\OwnCategory\SimpleTemplate\readme.txt" />
     <Content Include="Snippets\CSharp\OwnSnippets\Simple.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
