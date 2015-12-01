@@ -1,19 +1,21 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <ProjectType>CSharp</ProjectType>
-    
+    <ProjectType>CSharp</ProjectType>   
     <DefaultName>SimpleTemplate.txt</DefaultName>
     <Name>SimpleTemplate</Name>
-    <Description>Long description here</Description>    
+    <Description>SimpleTemplate - Example to demonstrate the replace mechanism</Description>    
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>0e0bdeb5-edc6-42d7-991d-6a2cc6774438</TemplateID>
     <SortOrder>1000</SortOrder>
   </TemplateData>
   <TemplateContent>
-    <References />
-     
-    <ProjectItem ReplaceParameters="true">readme.txt</ProjectItem>
-    
+    <References />    
+    <ProjectItem TargetFileName="File/$fileinputname$.txt" ReplaceParameters="true">File/SimpleFile.txt</ProjectItem> 
+    <ProjectItem TargetFileName="SourceCode/$fileinputname$.cs" ReplaceParameters="true">SourceCode/SimpleClass.cs</ProjectItem> 
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>Wizard.TgifWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>

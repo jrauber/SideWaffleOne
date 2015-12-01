@@ -15,5 +15,6 @@
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates"/>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippet.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Wizard.dll" AssemblyName="Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </Assets>
 </PackageManifest>

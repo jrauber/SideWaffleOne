@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideWaffleOne", "SideWaffle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{5854AF51-7508-4462-9001-AD2196BAD42E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard", "Wizard\Wizard.csproj", "{7A95F96D-1F71-4207-8D6C-49AD51E8D079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{5854AF51-7508-4462-9001-AD2196BAD42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5854AF51-7508-4462-9001-AD2196BAD42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5854AF51-7508-4462-9001-AD2196BAD42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A95F96D-1F71-4207-8D6C-49AD51E8D079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A95F96D-1F71-4207-8D6C-49AD51E8D079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A95F96D-1F71-4207-8D6C-49AD51E8D079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A95F96D-1F71-4207-8D6C-49AD51E8D079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

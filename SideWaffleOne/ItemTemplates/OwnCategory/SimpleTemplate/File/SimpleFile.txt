@@ -1,0 +1,90 @@
+﻿THIS IS A SIMPLE TEMPLATE FILE WITH REPLACE 
+
+REPLACE $fileinputname$
+
+OTHER PARAMETERS
+
+------------------------------------------------------
+
+clrversion : $clrversion$
+Current version of the common language runtime (CLR).
+
+------------------------------------------------------
+
+GUID [1-10] :	$guid1$, $guid2$, $guid3$, $guid4$, $guid5$
+				$guid6$, $guid7$, $guid8$, $guid9$, $guid10$
+A GUID used to replace the project GUID in a project file. You can specify up to 10 unique GUIDs (for example, guid1).
+
+------------------------------------------------------
+
+itemname : $itemname$
+The name provided by the user in the Add New Item dialog box.
+
+------------------------------------------------------
+
+machinename : $machinename$
+The current computer name (for example, Computer01).
+
+------------------------------------------------------
+
+projectname : $projectname$
+The name provided by the user in the New Project dialog box.
+
+------------------------------------------------------
+
+registeredorganization : $registeredorganization$
+The registry key value from HKLM\Software\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization.
+
+------------------------------------------------------
+
+rootnamespace : $rootnamespace$
+The root namespace of the current project. This parameter applies only to item templates.
+
+------------------------------------------------------
+
+safeitemname : $safeitemname$
+The name provided by the user in the Add New Item dialog box, with all unsafe characters and spaces removed.
+
+------------------------------------------------------
+
+safeprojectname : $safeprojectname$
+The name provided by the user in the New Project dialog box, with all unsafe characters and spaces removed.
+
+------------------------------------------------------
+
+time : $time$
+The current time in the format DD/MM/YYYY 00:00:00.
+
+------------------------------------------------------
+
+SpecificSolutionName : $specificsolutionname$
+The name of the solution. When "create solution directory" is checked, SpecificSolutionName has the solution name. When "create solution directory" is not checked, SpecificSolutionName is blank.
+
+------------------------------------------------------
+
+userdomain : $userdomain$
+The current user domain.
+
+------------------------------------------------------
+
+username : $username$
+The current user name.
+
+------------------------------------------------------
+
+webnamespace : $webnamespace$
+The name of the current Web site. This parameter is used in the Web form template to guarantee unique class names. If the Web site is at the root directory of the Web server, this template parameter resolves to the root directory of the Web Server.
+
+------------------------------------------------------
+
+year : $year$
+The current year in the format YYYY.
+
+------------------------------------------------------
+
+tgif : $tgif$
+Example of a custom replace wizard, returns TGIF-Time
+
+------------------------------------------------------
+
+SIMPLE ISN'T IT?
