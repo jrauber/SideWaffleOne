@@ -1,4 +1,5 @@
-﻿THIS IS A SIMPLE TEMPLATE FILE WITH REPLACE 
+﻿THIS IS A SIMPLE TEMPLATE FILE WITH REPLACE
+Source: https://msdn.microsoft.com/de-de/library/eehb4faa.aspx
 
 REPLACE $fileinputname$
 

@@ -7,8 +7,6 @@ namespace Wizard
 {
     public class TgifWizard : IWizard
     { 
-        public static Dictionary<string, string> GlobalDictionary = new Dictionary<string, string>();
-
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
             try
